@@ -17,7 +17,7 @@ func isPalindrome(x int) bool {
 }
 
 func main() {
-	testCases := []int{121, -121, 10, 12321, 0}
+	testCases := []int{121, 34543, 121, 10, 12321, 0}
 	for _, tc := range testCases {
 		fmt.Printf("isPalindrome(%d) = %v\n", tc, isPalindrome(tc))
 	}
