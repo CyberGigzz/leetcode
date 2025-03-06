@@ -9,7 +9,6 @@ class Solution:
             right -= 1
         
 
-# Example usage
 if __name__ == "__main__":
     example_string = ["h", "e", "l", "l", "o"]
     s = Solution()
